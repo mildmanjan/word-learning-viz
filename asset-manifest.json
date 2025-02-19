@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/word-learning-viz/static/css/main.692b0634.css",
+    "main.js": "/word-learning-viz/static/js/main.fa6219dd.js",
+    "index.html": "/word-learning-viz/index.html",
+    "main.692b0634.css.map": "/word-learning-viz/static/css/main.692b0634.css.map",
+    "main.fa6219dd.js.map": "/word-learning-viz/static/js/main.fa6219dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.692b0634.css",
+    "static/js/main.fa6219dd.js"
+  ]
+}
