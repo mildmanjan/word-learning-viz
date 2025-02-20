@@ -91,12 +91,24 @@ const PATTERN_LABELS = [
 ];
 
 const LEARNING_EXAMPLES = [
-    {
-      sentence: "The cat chases the mouse",
-      focus: "cat",
-      learning: "When animals chase things, they move quickly",
-      changes: { cat: [0.8, 0.3, 0.9, 0.2] }
-    },
+  {
+    sentence: "The cat sleeps on the mat",
+    focus: "cat",
+    learning: "First, the AI sees a simple action - it learns cats are things that can rest",
+    changes: { cat: [0.6, 0.3, 0.2, 0.2] }  // Starting to see it's alive but not much movement
+  },
+  {
+    sentence: "The cat drinks milk",
+    focus: "cat",
+    learning: "Now it sees cats can do actions by themselves - this means they're living things",
+    changes: { cat: [0.7, 0.3, 0.4, 0.2] }  // More evidence it's alive and can move
+  },
+  {
+    sentence: "The cat chases the mouse",
+    focus: "cat",
+    learning: "This shows cats can move quickly and interact with other animals",
+    changes: { cat: [0.8, 0.3, 0.9, 0.2] }  // Strong evidence of being alive and moving
+  },
     {
       sentence: "The dog barks at the cat",
       focus: "dog",

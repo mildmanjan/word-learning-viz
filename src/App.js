@@ -1,11 +1,12 @@
-import WordLearningViz from './components/WordLearningViz';
-import WordProcessingViz from './components/WordProcessingViz';
+import React from 'react';
+import IntroSection from './components/IntroSection';
+import WordPatternsSection from './components/WordPatternsSection';
 
 function App() {
   return (
     <div className="App">
-      <WordProcessingViz />
-      <WordLearningViz />
+      <IntroSection />
+      <WordPatternsSection />
     </div>
   );
 }
